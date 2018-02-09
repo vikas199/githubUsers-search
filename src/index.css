@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main{
+  margin: 10px;
+
+}
+.search{
+  float: right;
+  border-style: groove;
+  margin: 50px;
+ 
+}
+.searchBar{
+  width: 285px;
+  height: 30px;
+}
+.userData{
+  width: 290px;
+}
+ul{
+  margin-top: 0px;
+
+}
+li{
+  display: flex;
+  flex-direction: row;
+  border-style: groove;
+  padding: 5px;
+  margin-left: -40px;
+  list-style: none;
+ height: 40px;
+ 
+}
+li:hover{
+  background-color: yellow;
+}
+a{
+  
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  
+}
+
+.active {
+  background-color: yellow;
+}
